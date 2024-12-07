@@ -1,0 +1,84 @@
+/* Set the background color to brown */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: brown; /* Background color */
+    color: white; /* Default text color */
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Set heading color to blue */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: blue; /* Heading color */
+  }
+  
+  /* Dropdown and button styling */
+  select,
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Mic button styling */
+  button#micButton {
+    background: #007bff;
+    color: white;
+  }
+  
+  button#micButton:active {
+    background: #0056b3;
+  }
+  
+  /* Copy button styling */
+  button#copyButton {
+    background: #28a745;
+    margin-left: 10px;
+    color: white;
+  }
+  
+  button#copyButton:active {
+    background: #218838;
+  }
+  
+  /* Set the text box color to yellow */
+  textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: yellow; /* Text box background color */
+    color: black; /* Text color inside the text box */
+    resize: none;
+  }
+  
+  /* Paragraph and dropdown text styling */
+  p {
+    color: #8a2be2; /* Different color for other text */
+  }
+  
+  select {
+    background: #f5f5dc;
+    color: #333;
+  }
+  
